@@ -1,0 +1,157 @@
+
+/* Page body content styles */
+#main {
+	font-family: "Lucida Grande", Verdana, Helvetica, Arial, sans-serif;
+	width: 560px;
+	float: left;
+	clear: both;
+}
+#main-extra {
+	font-family: "Lucida Grande", Verdana, Helvetica, Arial, sans-serif;
+	width: 560px;
+	float: none;
+	clear: both;
+}
+.wide {
+	font-family: "Lucida Grande", Verdana, Helvetica, Arial, sans-serif;
+	width: 100% !important;
+	float: none;
+	clear: both;
+}
+#main a, #main-extra a {
+	text-decoration: underline;
+}
+#main a.no-underline, #main-extra a.no-underline {
+	text-decoration: none;
+}
+#main .pagination a {
+	text-decoration: none;
+}
+#main h2.imgrep  {
+	color: #4f84ad;
+	font-size: 2.8em;
+	font-weight: 900;
+	font-family: Helvetica,Arial,sans-serif;
+	margin: 0em 0em .25em 0em;
+}
+#main h2.imgrep a {
+	text-decoration: none;
+	font-family: Helvetica,Arial,sans-serif;
+	color: #4f84ad;
+}
+#main h3 a, #main-extra h3 a, #extras  .panel-text  h3 {
+	color: #d21a4e;
+}
+#main h3 a:hover {
+	color: #444444;
+	text-decoration: none;
+}
+#main h3, #main-extra h3, .document h3 {
+	font-family: "Lucida Grande", Verdana, Helvetica, Arial, sans-serif;
+	font-size: 1.2em;
+	text-transform: none;
+	color: #d21a4e;
+	border-bottom: none;
+}
+#main h3 span, #main-extra h3 span {
+	color: #222222;
+}
+#main .panel h3, #main-extra .panel h3 {
+	border-bottom:1px solid #CCCCCC;
+	color:#115098;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:1.05em;
+	font-weight:bold;
+	padding-bottom:2px;
+	text-transform:uppercase;
+	margin:0.5em 0pt;
+}
+
+#extras h3 a {
+	color: #333333;
+}
+
+#main h4, #main-extra h4, #main h5, #main-extra h5 {
+	font-family: "Lucida Grande", Verdana, Helvetica, Arial, sans-serif;
+	font-size: 1.2em;
+	text-transform: none;
+	color: #333333;
+	margin-top: 1.5em;
+}
+#main p, #main-extra p, .document p {
+	margin-bottom: 1em;
+	font-size: 1.2em;
+}
+#main strong, #main-extra strong {
+	color: #222222;
+}
+#main .pagination strong {
+	color: #FFF;
+}
+#main .liberty-pagination strong {
+	color: #222222;
+}
+#main b, #main-extra b {
+	color: #222222;
+	font-weight: normal;
+}
+#main ul, #main ol, .document ul, .document ol {
+	font-size: 1.2em;
+	margin-left: 2em;
+	line-height: 1.3em;
+}
+
+#main .information ul {
+	font-size: 1.0em;
+	margin-top: 6px;
+}
+
+#main #list ul {
+	font-size: 1em;
+}
+
+#main ul ul, #main ol ol{
+	font-size: 1em;
+}
+#main ul h3, #main ol h3 {
+	font-size: 1em;
+}
+#main ul.list, #main-extra ul.list {
+	margin-bottom: 1em;
+}
+#main ul.list ul, #main-extra ul.list ul {
+	margin-bottom: 0;
+}
+#main ul.list li, #main-extra ul.list li {
+	margin-bottom: 0.2em;
+	font-size: 1.2em;
+	margin-left: 1.5em;
+}
+#main ul.list li li, #main-extra ul.list li li {
+	font-size: 1em;
+}
+
+#main div.column1 {
+	width: 260px;
+	float: left;
+	clear: left;
+}
+#main div.column2 {
+	width: 260px;
+	float: right;
+}
+#wide div.column1 {
+	width: 425px;
+	float: left;
+}
+#wide div.column2 {
+	width: 425px;
+	float: right;
+}
+dl.text {
+	font-size: 1.2em;
+}
+dl.text dt  {
+	font-weight: bold;
+	margin-top: 1.2em;
+}
