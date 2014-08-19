@@ -403,10 +403,35 @@ in deinem Browser aufrufst, wird von phpBB automatisch
 					</caption>
 				</mediaobject>
 			</figure>
-			<para>Disabling BBCode completely is a little bit to harsh for your taste but you don't want your users to abuse the signature field for tons of images? Simply set <guilabel>Allow use of IMG BBCode Tag in user signatures</guilabel> to "No". If you want to be a little bit more specific on what you want to allow and disallow in users' signatures, have a look at the "Signature Settings" form.</para>
-			<para>The "Board Features" form offers you a great way to control the features in an all-or-nothing way. If you want to get into the details on each feature, there is for everything also a separated form which let's you specify everything from the maximum number of characters allowed in a post (<guilabel>Max characters per post</guilabel> in "Post Settings") to how large a user's avatar can be (<guilabel>Maximum Avatar Dimensions</guilabel> in "Avatar Settings").</para>
+			<para>
+			
+			
+			Wenn du verhindern möchtest, dass deine Mitglieder zig Bilder in ihre Signature einbinden,
+			solltest du bei der Funktion <guilabel>BBCode-Tag img in Signaturen erlauben</guilabel>
+			"Nein" angeben. Dadurch kannst du ein Einbinden von Bildern in die Signatur unterbinden, ohne
+			dass du deswegen den BBCode kompett deaktieren musst. Weitere Optionen bezüglich der 
+			Signatur findest du unter "Signaturen".
+			</para>
+			<para>
+			
+			Die Board-Funktionalitäten erlauben dir, die verschiedenen Funktionen des Boards entweder zu 
+			aktivieren oder zu deaktivieren. Darüberhinaus jedoch gibt es für jede Funktion eine eigene 
+			Rubrik, unter der du die Feineinstellung vornehmen kannst, angefangen von der maximalen Anzahl 
+			der Zeichen, die in einem Beitrag vorkommen dürfen 
+			(<guilabel>Maximale Anzahl der Zeichen pro Beitrag/Nachricht:</guilabel> 
+			unter "Beiträge") bis hin zu den maximalen Abmessungen für die Avatare 
+			(<guilabel>Maximale Abmessungen für Avatare:</guilabel> unter "Avatare".
+					  </para>
 			<important>
-				<para>If you disable features, these will also be unavailable to users who would normally have them according to their respective permissions. For details on the permissions system, please read <xref linkend="quick_permissions" /> or the <link linkend="acp_permissions">in-depth guide in the Administrator Guide.</link></para>
+				<para>
+				
+				Die Funktionen, die du deaktivierst, werden natürlich auch nicht den Mitgliedern
+				zur Verfügung stehen, die normalerweise aufgrund ihrer Berechtigungen diese
+				Funktionen ausüben dürften. Weitere Einzelheiten dazu findest du unter
+				<xref linkend="quick_permissions" /> oder der 
+				<link linkend="acp_permissions">in-depth guide in the Administrator Guide.</link>
+				
+			</para>
 			</important>
 		</section>
 		<!--<para>TODO: Probably needs a better title. How to change the default forum settings, forum name or description, for instance. Does not need to have all settings explained in detail. We have the Admin Guide for that. It would be good to provide a link if there is anything that is discussed more detailed in the Admin Guide. </para>-->
