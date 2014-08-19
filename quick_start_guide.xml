@@ -374,8 +374,8 @@ in deinem Browser aufrufst, wird von phpBB automatisch
 			
 			
 			Hier kannst du auch die Standardsprache deines Boards (<guilabel>Standardsprache</guilabel>) 
-			deines Boards ändern. Diese kann vom einzelnen Mitglied im Persönlichen Bereich
-			überschreiben werden. Standardmäßig enthält das phpBB3-Paket nur das englische
+			ändern. Diese Einstellung kann vom einzelnen Mitglied im Persönlichen Bereich
+			überschrieben werden. Standardmäßig enthält das phpBB3-Paket nur das englische
 			Sprachpaket. Bevor du also hier die Standardsprache ändern kannst, musst du das 
 			entsprechende Sprachpaket herunterladen und bei dir installieren. Weitere Einzelheiten
 			dazu findest du unter <link linkend="acp_system_language">Sprachpakete</link>.
@@ -385,8 +385,13 @@ in deinem Browser aufrufst, wird von phpBB automatisch
 		</section>
 		<!--/board_settings-->
 		<section id="quick_settings_boardfeatures">
-			<title>Board Features</title>
-			<para>If you want to enable or disable some of the basic features of your board, this is the place to go. Here you can allow and disallow for example username changes (<guilabel>Allow Username changes</guilabel>) or the creation of attachments (<guilabel>Allow Attachments</guilabel>). You can even disable <acronym>BBCode</acronym> altogether (<guilabel>Allow BBCode</guilabel>).</para>
+			<title>Board-Funktionalitäten</title>
+			<para>Hier kannst du einige Funktionen des Boards aktivieren bzw. deaktivieren.
+			Du kannst hier z.B. den Namenswechsel erlauben oder verbieten
+			(<guilabel>Namenswechsel erlauben</guilabel>) oder Dateianhänge (<guilabel>Dateianhänge erlauben</guilabel>)
+			erlauben oder verbieten (<guilabel>Dateianhänge erlauben</guilabel>) genauso wie den BBCode 
+			 (<guilabel>BBCode erlauben</guilabel>).
+	         	</para>
 			<figure id="img_quick_settings_features">
 				<title>Board Features</title>
 				<mediaobject>
@@ -394,7 +399,7 @@ in deinem Browser aufrufst, wird von phpBB automatisch
 						<imagedata fileref="../images/quick_start_guide/settings_features.png" format="PNG" />
 					</imageobject>
 					<caption>
-						<para>Enabling and disabling basic features with just 2 clicks</para>
+						<para>Board-Funktionalitäten aktivieren bzw. deaktivieren mit 2 Klicks.</para>
 					</caption>
 				</mediaobject>
 			</figure>
