@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//DE"
                          "http://www.docbook.org/xml/4.4/docbookx.dtd">
 <chapter id="quick_start_guide">
 	<?dbhtml  dir="quickstart" filename="index.html" ?>
@@ -10,26 +10,30 @@
 			<holder>phpBB Group</holder>
 		</copyright>
 	</chapterinfo>
-	<title>Quick Start Guide</title>
+	<title>Kurzanleitung phpBB 3.0. - Schnelleinstieg</title>
 	<abstract>
-		<para>A quick guide through the first steps of installing and configuring up your very own phpBB 3.0 forum.</para>
+		<para>Diese Kurzanleitung führt dich schnell
+		durch die ersten Schritte der 
+		Installation und Konfiguration deines eigenen phpBB 3.0.-Forums.</para>
 	</abstract>
 	<section id="quick_requirements">
 		<sectioninfo>
 			<authorgroup>
 				<author>
-					<othername>Graham</othername>
+					<othername>Lehrling</othername>
 				</author>
 			</authorgroup>
 		</sectioninfo>
-		<title>Requirements</title>
-		<para>phpBB has a few requirements which must be met before you are able to install and use it. In this section, these requirements are explained.</para>
+		<title>Voraussetzungen</title>
+		<para>Um phpBB installieren zu können, müssen bestimmte Voraussetzungen 
+		erfüllt sein. Der folgende Abschnitt geht auf diese Voraussetzungen näher ein. Notwendig sind:</para>
 		<itemizedlist>
 			<listitem>
-				<para>A webserver or web hosting account running on any major Operating System with support for PHP</para>
+				<para>Ein Webserver oder Webspace bei einem Webhoster, der eines der 
+				gängigen Betriebssysteme nutzt und PHP unterstützt.</para>
 			</listitem>
 			<listitem>
-				<para>A SQL database system, one of:</para>
+				<para>Eine Datenbank, die mit sql kompatibel ist. Folgende Datenbank-Typen werden unterstützt:</para>
 				<itemizedlist>
 					<listitem>
 						<para>FireBird 2.1 or above</para>
@@ -52,13 +56,15 @@
 				</itemizedlist>
 			</listitem>
 			<listitem>
-				<para>PHP 4.3.3+ (>=4.3.3, >4.4.x, >5.x.x, >6.0-dev (compatible)) with support for the database you intend to use.</para>
+				<para>PHP 4.3.3+ (>=4.3.3, >4.4.x, >5.x.x, >6.0-dev (kompatibel)) 
+				Datenbankunterstützung muss gegeben sein.</para>
 			</listitem>
 			<listitem>
 				<para>getimagesize() function enabled</para>
 			</listitem>
 			<listitem>
-				<para>The following PHP modules are optional, but will provide access to additional features.</para>
+				<para>Die folgenden PHP-Module sind optional und ermöglichen die Einrichtung  
+				zusätzlicher Funktionen.</para>
 				<itemizedlist>
 					<listitem>
 						<para>zlib Compression support</para>
@@ -78,19 +84,27 @@
 				</itemizedlist>
 			</listitem>
 		</itemizedlist>
-		<para> The presence of each of these required features will be checked during the installation process, explained in <xref linkend="quick_installation" />. </para>
+		<para>Während des Installationsprozesses wird geprüft, ob und welche Module (oder Funktionen?) 
+		vorhanden sind. 
+		Nähere Erläuterungen dazu in <xref linkend="quick_installation" />. </para>
 	</section>
 	<section id="quick_installation">
 		<sectioninfo>
 			<authorgroup>
 				<author>
-					<othername>dhn</othername>
+					<othername>Lehrling</othername>
 				</author>
 			</authorgroup>
 		</sectioninfo>
 		<title>Installation</title>
-		<para>phpBB 3.0 Olympus has an easy to use installation system that will guide you through the installation process.</para>
-		<para>After you have decompressed the phpBB3 archive and uploaded the files to the location where you want it to be installed, you need to enter the <acronym>URL</acronym> into your browser to open the installation screen. The first time you point your browser to the <acronym>URL</acronym> (<uri>http://www.example.com/phpBB3</uri> for instance), phpBB will detect that it is not yet installed and automatically redirect you to the installation screen.</para>
+		<para>Die Version phpBB 3.0 Olympus verfügt über ein leicht bedienbares Installations-System, 
+		das dich durch den Installationsprozess führt.</para>
+		<para>Nachdem du das phpBB3-Paket entpackt hast und die Dateien in das
+Verzeichnis hochgeladen hast, in dem dein Forum installiert werden soll, 
+musst du die <acronym>URL</acronym> im Browser aufrufen, um zur Startseite der Installation zu gelangen.
+Wenn du zum ersten Mal die <acronym>URL</acronym> (<uri>http://www.example.com/phpBB3</uri> beispielsweise), 
+in deinem Browser aufrufst, wird von phpBB automatisch 
+	ermittelt, dass es noch nicht installiert ist und du wirst automatisch zur Startseite der Installation geführt.</para>
 		<figure id="img_quick_installation_intro">
 			<title>Introduction</title>
 			<mediaobject>
@@ -98,43 +112,75 @@
 					<imagedata fileref="../images/quick_start_guide/installation_intro.png" format="PNG" />
 				</imageobject>
 				<caption>
-					<para>The introduction page of the installation system.</para>
+					<para>Die Startseite des Installations-Systems.</para>
 				</caption>
 			</mediaobject>
 		</figure>
 		<section id="quick_installation_intro">
-			<title>Introduction</title>
-			<para>The installation screen gives you a short introduction into phpBB. It allows you to read the license phpBB 3.0 is released under (the <ulink url="http://opensource.org/licenses/gpl-license.php">General Public License</ulink>) and provides information about how you can receive support. To start the installation, click the <guilabel>Install</guilabel> tab (see <xref linkend="img_quick_installation_intro" />).</para>
+			<title>Einführung</title>
+			<para>Auf der 
+	Installationsstartseite findest du eine kurze
+	Einführung in phpBB. Dort kannst du auch die Lizenz einsehen, unter der phpBB veröffentlicht 
+	wurde (<ulink url="http://opensource.org/licenses/gpl-license.php">General Public License</ulink>). 
+	Außerdem kannst du nachlesen, wo und wie du Support erhalten kannst.   
+	Um die Installation zu starten, wähle das Register <guilabel>Installieren</guilabel>. 
+	(siehe <xref linkend="img_quick_installation_intro" />).</para>
 		</section>
 		<section id="quick_installation_requirements">
-			<title>Requirements</title>
+			<title>Voraussetzungen</title>
 			<important>
-				<para>Please read the <link linkend="quick_requirements">section on phpBB3's requirements</link> to find out more about the phpBB 3.0's minimum requirements.</para>
+				<para>Nähere Erläuterungen zu den Mindestvoraussetzungen, die notwendig sind,
+				um ein phpBB 3.0.-Forum zu installieren und zu betreiben, findest du unter 
+				<link linkend="quick_requirements">Voraussetzungen</link>. </para>
 			</important>
-			<para>The requirements list is the first page you will see after starting the installation. phpBB 3.0 automatically checks if everything that it needs to run properly is installed on your server. In order to continue the installation, you will need to have <acronym>PHP</acronym> installed (the minimum version number is shown on the requirements page), and at least one database available to continue the installation. It is also important that all shown folders are available and have the correct permissions set. Please see the description of each section to find out if they are optional or required for phpBB 3.0 to run. If everything is in order, you can continue the installation by clicking the <guilabel>Start Install</guilabel> button.</para>
+			<para>Zunächst gelangst du zur Seite <i></i>Installations-Kompatibilität</i>. 
+			phpBB 3.0 wird einige Tests zu deiner Server-Konfiguration und 
+			deinen Dateien durchführen, um sicherzustellen, dass du phpBB installieren 
+			und benutzen kannst.
+			Um die Installation starten zu können,
+			musst du <acronym>PHP</acronym> verwenden. Die notwendige Mindest-PHP-Version 
+			wird dir unter <i>PHP-Version und -Einstellungen</i> angezeigt. Weiterhin 
+			muss mindestens eine kompatible Datenbank in PHP bereitstehen.
+			Wichtig ist auch, dass phpBB auf alle angezeigten Dateien und Verzeichnisse 
+			zugreifen und diese beschreiben kann.
+			Lies die Beschreibung jedes Abschnittes (alternativ: Ergebnisse
+			 der Tests) genau durch, um herauszufinden, ob 
+			diese für die Installation und den Betrieb von phpBB 3.0 optional sind
+			oder zwingend notwendig.
+			 Wenn alle Tests bestanden sind, kannst du mit der Installation fortfahren. Klicke dafür
+			 auf
+			 <guilabel>Installation starten</guilabel>.</para>
 		</section>
 		<section id="quick_installation_database">
-			<title>Database settings</title>
-			<para>You now have to decide which database to use. See the <link linkend="quick_requirements">Requirements section</link> for information on which databases are supported. If you do not know your database settings, please contact your hosting company and ask for them. You will not be able to continue without them. You need:</para>
+			<title>Datenbank-Konfiguration</title>
+			<para>Du musst nun festlegen, welche Datenbank du nutzen wirst. Siehe dazu 
+			<link linkend="quick_requirements">den Abschnitt über die Voraussetzungen</link>. Dort wird erläutert,
+			welche Datenbank-Typen unterstützt werden. Wenn du die Einstellungen deiner Datenbank nicht kennst, 
+			solltest du dich mit deinem Hostbetreiber in Verbindung und dort nachfragen.
+		        Ohne korrekte Angaben zu den Einstellungen der Datenbank ist eine Fortsetzung der Installation nicht möglich. 
+			Folgende Angaben sind erforderlich:</para>
 			<itemizedlist>
 				<listitem>
-					<para>The <guilabel>Database Type</guilabel> - the database you will be using (e.g. mySQL, SQL server, Oracle)</para>
+					<para>Der <guilabel>Datenbank-Typ</guilabel> - die Datenbank, die genutzt werden soll (z.B. mySQL, SQL server, Oracle)</para>
 				</listitem>
 				<listitem>
-					<para>The <guilabel>Database server hostname or DSN</guilabel> - the address of the database server.</para>
+					<para>Der <guilabel>Der Datenbankserver-Hostname oder DSN</guilabel> - die Adresse des Datenbank-Servers.</para>
 				</listitem>
 				<listitem>
-					<para>The <guilabel>Database server port</guilabel> - the port of the database server (most of the time this is not needed).</para>
+					<para>Der <guilabel>Datenbankserver-Port</guilabel> - der Port des Datenbankservers (in der Regel ist diese Angabe nicht notwendig).</para>
 				</listitem>
 				<listitem>
-					<para>The <guilabel>Database name</guilabel>- the name of the database on the server.</para>
+					<para>Der <guilabel>Name der Datenbank</guilabel> - der Name der Datenbank auf dem Server.</para>
 				</listitem>
 				<listitem>
-					<para>The <guilabel>Database username</guilabel> and <guilabel>Database password</guilabel> - the login data to access the database.</para>
+					<para>Der <guilabel>Datenbank-Benutzername</guilabel> und das <guilabel> Datenbank-Passwort</guilabel> - die Zugangsdaten für die Datenbank</para>
 				</listitem>
 			</itemizedlist>
 			<tip>
-				<para>If you are installing using SQLite, you should enter the full path to your database file in the DSN field and leave the username and password fields blank. For security reasons, you should make sure that the database file is not stored in a location accessible from the web.</para>
+				<para>Wenn du bei der Installation SQLite verwendest, musst du den vollständigen Pfad 
+				zu deiner Datenbank-Datei in das DSN-Feld eintragen und die Felder für den Benutzernamen und 
+				das Passwort leer lassen. Aus Sicherheitsgründen solltest du sicherstellen, dass die Datenbank-Datei
+				sich nicht an einem Ort befindet, der über das Internet erreichbar ist.</para>
 			</tip>
 			<figure id="img_quick_installation_database">
 				<title>Database settings</title>
