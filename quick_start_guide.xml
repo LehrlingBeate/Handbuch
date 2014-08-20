@@ -351,7 +351,7 @@
 			in die Signatur unterbinden, ohne dass du deswegen den BBCode kompett deaktivieren musst. 
 			Weitere Optionen bezüglich der Signatur findest du unter "Signaturen".</para>
 			<para>Über das Menü "Board-Funktionalitäten" kannst du die verschiedenen grundlegenden 
-			Funktionen des Boards über eine Entweder-Oder-Auswahl aktivieren oder deaktivieren.
+			Funktionen des Boards über eine JA/NEIN-Auswahl aktivieren oder deaktivieren.
 			Darüberhinaus jedoch gibt es für jede Funktion ein eigenes 
 			Menü, über das du die Feineinstellungen vornehmen kannst, angefangen von der maximalen Anzahl 
 			der Zeichen, die in einem Beitrag vorkommen dürfen 
@@ -488,16 +488,18 @@
 			<para>There are four different types of permissions:</para>
 			<orderedlist>
 				<listitem id="quick_permission_types_user">
-					<para>Benutzer-/Gruppenrechte (global) - ng avatar</para>
+					<para>Benutzer-/Gruppenrechte (forenübergreifend) - z.B. kann Avatar nicht ändern</para>
 				</listitem>
 				<listitem id="quick_permission_types_admin">
-					<para>Administrator permissions (global) - e.g. allow to manage forums</para>
+					<para>Administratorenrechte (forenübergreifend) - z.B. kann Foren verwalten</para>
 				</listitem>
 				<listitem id="quick_permission_types_moderator">
-					<para>Moderator permissions (global or local) - e.g. allow to lock topics or ban users (only global)</para>
+					<para>Moderatorenrechte (forenübergreifend oder spezifisch) - z.B. kann Themen
+					oder Benutzer sperren (nur forenübergreifend)
+				</para>
 				</listitem>
 				<listitem id="quick_permission_types_forum">
-					<para>Forum permissions (local) - e.g. allow to see a forum or post topics</para>
+					<para>Forenrechte (spezifisch) - z.B. kann ein Forum oder Themen sehen</para>
 				</listitem>
 			</orderedlist>
 			<para>Each permission type consists of a different set of permissions and can apply either locally or globally. A global permission type is set for your whole bulletin board. If you disallow one of your users to send Private Messages, for instance, you have to do this with the global user permission. Administrator permission are also global.</para>
