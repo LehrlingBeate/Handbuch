@@ -438,13 +438,32 @@
 		anzeigen lassen. Weitere Informationen findest du unter
 		<xref linkend="acp_forums">in-depth 
 		section on forum creation</xref>.</para>
-		<para>Once you're done configuring the settings of your new forum, scroll to the bottom of the page and click the <guilabel>Submit</guilabel> button to create your forum and it's settings. If your new forum was created successfully, the screen will show you a success message.</para>
-		<para>If you wish to set permissions for the forum (or if you do not click on anything), you will see the forum permissions screen. If you do not want to (and want to use the default permissions for your new forum), click on the <guilabel>Back to previous page</guilabel> link. Otherwise, continue and set each setting to what you wish. Once you are done, click the <guilabel>Apply all Permissions</guilabel> button at the bottom of the page. You will see the successful forum permissions updated screen if it worked.</para>
+		<para>
+		
+		Nachdem du alle Einstellungen für dein Forum angepasst hast, musst du nach unten
+		gehen und dort auf <guilabel>Absenden</guilabel> drücken, um das neue Forum mit den 
+		entsprechenden Einstellungen zu erstellen. Wenn die Erstellung des neuen
+		Forums erfolgreich war, erhältst du die Meldung "Forum wurde erfolgreich erstellt."
+		</para>
+		<para>Wenn du für das neue Forum Befugnisse vergeben möchtest 
+		(oder einfach nur nichts anderes anklickst), wirst du zur Seite "Forenrechte" geleitet. 
+		Wenn du für dein Forum keine Befugnisse vergeben möchtest
+		oder die vorgegebenen Berechtigungen übernehmen möchtest, dann klicke auf 
+		<guilabel>Zurück zur vorherigen Seite</guilabel>. Ansonsten kannst du nun
+		die Berechtigungen bearbeiten. Wenn du damit fertig bist, musst du unten auf der Seite auf 
+		<guilabel>Alle Berechtigungen anwenden</guilabel> klicken. Wenn die Berechtigungen
+		erfolgreich aktualisiert wurden, erhältst du die Meldung "Die Berechtigungen wurden aktualisiert.".
+		</para>
 		<important>
-			<para>If you do not set any permissions on this forum it will not be accessible to anyone (including yourself).</para>
+			<para>Wenn du für dein Forum keine Berechtigungen vergibst, wird es für
+			niemanden, dich eingenommen, zugänglich sein.
+			</para>
 		</important>
-		<para>You have successfully updated your forum permissions and set up your new forum. To create more forums, follow this general procedure again.</para>
-		<para>For more information on setting permissions, see <xref linkend="quick_permissions" /></para>
+		<para>Du hast soeben die Berechtigungen erfolgreich aktualisiert und ein neues
+		Forum erstellt. Nach demselben Verfahren kannst du nun weitere Foren erstellen.
+		</para>
+		<para>Weitere Information zu den Forenrechten findest du hier: <xref linkend="quick_permissions" />
+		</para>
 	</section>
 	<section id="quick_permissions">
 		<sectioninfo>
