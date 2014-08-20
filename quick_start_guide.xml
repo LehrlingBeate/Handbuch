@@ -469,19 +469,26 @@
 		<sectioninfo>
 			<authorgroup>
 				<author>
-					<othername>dhn</othername>
+					<othername>Lehrling</othername>
 				</author>
 			</authorgroup>
 		</sectioninfo>
-		<title>Setting permissions</title>
-		<para>After you created your first forum, you have to decide who has access to it and what your users are allowed to do and what not. This is what Permissions are for. You can disallow guests to post or hand out moderating powers, for instance. Almost every aspect of user interaction with phpBB3 Olympus can be adjusted with permissions.</para>
+		<title>Berechtigungen</title>
+		<para>
+		Nachdem du dein erstes Forum erstellt hast, must du festlegen, wer darauf 
+		zugreifen darf und was deine Benutzer dürfen und was sie nicht dürfen.
+		Dafür sind Berechtigungen da. Du kannst deinen Gästen z.B. das Recht verwehren, 
+		Beiträge schreiben zu können, oder auch einem Benutzer moderative Befugnisse übertragen. 
+		Über phpBB3 Olympus ist es möglich, fast alle Aspekte der Benutzerinteraktion 
+		durch Berechtigungen zu steuern.
+		</para>
 
 		<section id="quick_permissions_types">
-			<title>Permission types</title>
+			<title>Berechtigungstypen</title>
 			<para>There are four different types of permissions:</para>
 			<orderedlist>
 				<listitem id="quick_permission_types_user">
-					<para>User/Group permissions (global) - e.g. disallow changing avatar</para>
+					<para>Benutzer-/Gruppenrechte (global) - ng avatar</para>
 				</listitem>
 				<listitem id="quick_permission_types_admin">
 					<para>Administrator permissions (global) - e.g. allow to manage forums</para>
