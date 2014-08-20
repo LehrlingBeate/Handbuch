@@ -246,12 +246,12 @@
 			Du erhältst die Meldung, dass du die Datei config.php 
 			<guilabel>herunterladen </guilabel>sollst und Anweisungen dazu, was du mit dieser Datei tun sollst.
 			Lies diese Anweisungen genau durch. Nachdem du die Datei hochgeladen hast, gehst du auf 
-		<guilabel>Erledigt</guilabel>, um zum letzten Schritt zu gelangen.
+		        <guilabel>Erledigt</guilabel>, um zum letzten Schritt zu gelangen.
 	                Solltest du jedoch keine Bestätigung darüber erhalten, dass das Hochladen der Datei erfolgreich war und 
-		         wieder zur vorherigen Seite zurückgeführt werden, bedeutet dies, dass du die Datei nicht korrekt 
-		         hochgeladen hast.</para>
-		</section>
-		<section id="quick_installation_advanced">
+		        wieder zur vorherigen Seite zurückgeführt werden, bedeutet dies, dass du die Datei nicht korrekt 
+		        hochgeladen hast.</para>
+		        </section>
+		        <section id="quick_installation_advanced">
 			<title>Erweiterte Einstellungen</title>
 			<para>Mithilfe der <guilabel>Erweiterten Einstellungen </guilabel> 
 			kannst du einige Einstellungen zur Konfigurations des Forums vornehmen.
@@ -259,64 +259,97 @@
 			bezüglich dieser Erweiterten Einstellungen unsicher bist, überspringe diese Seite 
 			und fahre mit dem nächsten Schritt fort.</para>
 			<para>Wenn die Installation erfolgreich war, kannst du nun auf 
-			<guilabel>Anmelden</guilabel> drücken und zum
-			<guilabel>Administrationsbereich</guilabel> gehen. Herzlichen Glückwunsch!
+			<guilabel>Anmelden</guilabel> gehen, um in den 
+			<guilabel>Administrationsbereich</guilabel> zu gelangen. Herzlichen Glückwunsch!
 			Du hast phpBB 3.0.12 erfolgreich installiert. 
 			Aber es gibt immer noch einiges zu tun!</para>
 			<para>Sollte dir die Installation von phpBB 3.0 trotz Zuhilfenahme dieser Kurzanleitung
-			nicht gelingen, dann schau unter <link linkend="quick_support">support section</link> 
+			nicht gelingen, dann schau unter <link linkend="quick_support">Support</link> 
 			nach, um zu erfahren, wo du zusätzlichen Support erhalten kannst.</para>
-			<para>Solltest du hingegen ein Update von 2.0. zu 3.0 vornehmen wollen, dann solltest du jetzt die 
-			<link linkend="upgrade_guide">upgrade guide</link> lesen, um weitere Informationen
-			zu bekommen. Wenn nicht, dann lösche nun den Ordner install aus deinem Hauptverzeichnis, da du ansonsten nur
-			Zugang zum Administrationsbereich hast.</para>
+			<para>Solltest du hingegen eine Konvertierung von 2.0. zu 3.0 vornehmen wollen, dann solltest 
+			du jetzt die <link linkend="upgrade_guide">Schritt-für-Schritt Konvertierungsanleitung von phpBB2 auf phpBB3</link>
+			lesen, um weitere Informationen zu bekommen. 
+			Wenn nicht, dann lösche nun den Ordner install aus deinem Hauptverzeichnis, da 
+			nur der Administrations-Bereich zugänglich, solange dieses Verzeichnis existiert.	
+			</para>
 		</section>
 	</section>
 	<section id="quick_settings">
 		<sectioninfo>
 			<authorgroup>
 				<author>
-					<othername>zeroK</othername>
+					<othername>Lehrling</othername>
 				</author>
 			</authorgroup>
 		</sectioninfo>
-		<title>General settings</title>
-		<para>In this section you will learn how to change some of the basic settings of your new board.</para>
-		<para>Right after the installation you will be redirected to the so called "Administration Control Panel" (<acronym>ACP</acronym>). You can also access this panel by clicking the <guilabel>[Administration Control Panel]</guilabel> link at the bottom of your forum. In this interface you can change everything about your board.</para>
+		<title>Allgemeine Einstellungen</title>
+		<para>In diesem Abschnitt erfährst du, wie du einige der Grundeinstellungen deines Boards ändern kannst.</para>
+		<para>Direkt nach der Installation wirst du zum sogenannten "Administrationsbereich" geführt.
+		(<acronym>ACP</acronym>). 
+		Du kannst aber auch auf den Link <guilabel>[Administrationsbereich]</guilabel>, der sich 
+		im unteren Teil deines Forums befindet, gehen, um Zugang zu diesem Bereich zu erhalten.
+		Über dieses Dialogfenster kannst du nun sämtliche Einstellungen deines Boards ändern.</para>
 		<section id="quick_settings_boardsettings">
-			<title>Board Settings</title>
-			<para>The first section of the <acronym>ACP</acronym> you will probably want to visit right after the installation is "Board Settings". Here you can first of all change the name (<guilabel>Site name</guilabel>) and description (<guilabel>Site description</guilabel>) of your board.</para>
-			<figure id="img_quick_settings_sitename">
-				<title>Board Settings</title>
+		<title>Board-Einstellungen</title>
+		<para>Wahrscheinlich wirst du nach der Installation zuerst das 
+		Menü "Board-Einstellungen" im <acronym>Administrationsbereich</acronym> aufrufen wollen, 
+		denn hier kannst du den Namen (<guilabel>Name des Boards</guilabel>) und die Beschreibung
+		(<guilabel>Beschreibung des Boards</guilabel>) deines Boards ändern.</para>
+		<figure id="img_quick_settings_sitename">
+				<title>Board-Einstellungen</title>
 				<mediaobject>
 					<imageobject>
 						<imagedata fileref="../images/quick_start_guide/settings_sitename.png" format="PNG" />
 					</imageobject>
 					<caption>
-						<para>Here you can edit the Site name and Site description of your board.</para>
+						<para>Hier kannst du den Namen deines Boards und die Beschreibung deines Boards bearbeiten.</para>
 					</caption>
 				</mediaobject>
-			</figure>
-			<para>This form also holds the options for changing things like the timezone (<guilabel>System timezone</guilabel>) as well as the date format used to render dates/times (<guilabel>Date format</guilabel>).</para>
-			<para>There you can also select a new style (after having installed it) for your board and enforce it on all members ignoring whatever style they've selected in their "User Control Panel". The style will also be used for all forums where you haven't specified a different one. For details on where to get new styles and how to install them, please visit the <ulink url="http://www.phpbb.com/styles/">styles home page</ulink> at <ulink url="http://www.phpbb.com/">phpbb.com</ulink>.</para>
-			<para>If you want to use your board for a non-English community, this form also lets you change the default language (<guilabel>Default Language</guilabel>) (which can be overridden by each user in their UCPs). By default, phpBB3 only ships with the English language pack. So, before using this field, you will have to download the language pack for the language you want to use and install it. For details, please read <link linkend="acp_system_language">Language packs</link> .</para>
+		</figure>
+		<para>Über dieses Formular kannst du auch Einstellungen wie die Zeitzone 
+		(<guilabel>Zeitzone für Gäste</guilabel>) und das Datumsformat, 
+		das das Datum und die Uhrzeit (<guilabel>Datumsformat</guilabel>) definiert,
+		anpassen.</para>
+		<para>Hier kannst du auch einen neuen Style für dein Board wählen (vorausgesetzt, du hast ihn installiert)
+		und damit den Benutzer-Style überschreiben lassen, gleich welchen Style der Benutzer in seinem 
+		"Persönlichen Bereich" eingestellt hat. Dieser Style wird auch in allen Foren erscheinen, für die du keinen 
+		eigenen Style festgelegt hast. Weitere Einzelheiten zum Thema "Styles" erhältst du hier
+		<ulink url="http://www.phpbb.com/styles/">styles homepage</ulink> 
+		bei <ulink url="http://www.phpbb.com/">phpbb.com</ulink>.</para>
+		<para>Hier kannst du auch die Standardsprache deines Boards (<guilabel>Standardsprache</guilabel>) 
+		ändern. Diese Einstellung kann vom einzelnen Mitglied im Persönlichen Bereich
+		überschrieben werden. Standardmäßig enthält das offizielle phpBB3-Paket nur das englische
+		Sprachpaket. Bevor du also hier die Standardsprache ändern kannst, musst du das 
+		entsprechende Sprachpaket herunterladen und bei dir installieren. Für den Betrieb des Boards
+		in deutscher Sprache empfehlen wir daher die Installation des deutschen 
+		Komplettpakets, das das deutsche Sprachpaket schon enthält, sodass eine zusätzlich Installations 
+		des deutschen Sprachpaketes nicht notwenig ist. Weitere Einzelheiten
+		dazu findest du unter <link linkend="acp_system_language">Sprachpakete</link>.</para>
 		</section>
 		<!--/board_settings-->
 		<section id="quick_settings_boardfeatures">
-			<title>Board Features</title>
-			<para>If you want to enable or disable some of the basic features of your board, this is the place to go. Here you can allow and disallow for example username changes (<guilabel>Allow Username changes</guilabel>) or the creation of attachments (<guilabel>Allow Attachments</guilabel>). You can even disable <acronym>BBCode</acronym> altogether (<guilabel>Allow BBCode</guilabel>).</para>
-			<figure id="img_quick_settings_features">
-				<title>Board Features</title>
+		<title>Board-Funktionalitäten</title>
+		<para>Hier kannst du einige Funktionen des Boards aktivieren bzw. deaktivieren.
+		Du kannst hier z.B. den Namenswechsel erlauben oder verbieten
+		(<guilabel>Namenswechsel erlauben</guilabel>) oder Dateianhänge (<guilabel>Dateianhänge erlauben</guilabel>)
+		erlauben oder verbieten (<guilabel>Dateianhänge erlauben</guilabel>) genauso wie den BBCode 
+		(<guilabel>BBCode erlauben</guilabel>).</para>
+		<figure id="img_quick_settings_features">
+				<title>Board-Funktionalitäten</title>
 				<mediaobject>
 					<imageobject>
 						<imagedata fileref="../images/quick_start_guide/settings_features.png" format="PNG" />
 					</imageobject>
 					<caption>
-						<para>Enabling and disabling basic features with just 2 clicks</para>
+						<para>Board-Funktionalitäten aktivieren bzw. deaktivieren mit 2 Klicks.</para>
 					</caption>
 				</mediaobject>
 			</figure>
-			<para>Disabling BBCode completely is a little bit to harsh for your taste but you don't want your users to abuse the signature field for tons of images? Simply set <guilabel>Allow use of IMG BBCode Tag in user signatures</guilabel> to "No". If you want to be a little bit more specific on what you want to allow and disallow in users' signatures, have a look at the "Signature Settings" form.</para>
+			<para>Wenn du verhindern möchtest, dass deine Mitglieder zig Bilder in ihre Signature einbinden,
+			solltest du bei der Funktion <guilabel>BBCode-Tag img in Signaturen erlauben</guilabel>
+			"Nein" angeben. Dadurch kannst du ein Einbinden von Bildern in die Signatur unterbinden, ohne
+			dass du deswegen den BBCode kompett deaktieren musst. Weitere Optionen bezüglich der 
+			Signatur findest du unter "Signaturen".</para>
 			<para>The "Board Features" form offers you a great way to control the features in an all-or-nothing way. If you want to get into the details on each feature, there is for everything also a separated form which let's you specify everything from the maximum number of characters allowed in a post (<guilabel>Max characters per post</guilabel> in "Post Settings") to how large a user's avatar can be (<guilabel>Maximum Avatar Dimensions</guilabel> in "Avatar Settings").</para>
 			<important>
 				<para>If you disable features, these will also be unavailable to users who would normally have them according to their respective permissions. For details on the permissions system, please read <xref linkend="quick_permissions" /> or the <link linkend="acp_permissions">in-depth guide in the Administrator Guide.</link></para>
