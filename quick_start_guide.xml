@@ -499,7 +499,8 @@
 				</para>
 				</listitem>
 				<listitem id="quick_permission_types_forum">
-					<para>Forenrechte (spezifisch) - z.B. kann ein Forum oder Themen sehen</para>
+					<para>Forenrechte (spezifisch) - z.B. kann ein Forum oder 
+					kann neue Themen im Forum starten</para>
 				</listitem>
 			</orderedlist>
 			<para>Each permission type consists of a different set of permissions and can apply either locally or globally. A global permission type is set for your whole bulletin board. If you disallow one of your users to send Private Messages, for instance, you have to do this with the global user permission. Administrator permission are also global.</para>
